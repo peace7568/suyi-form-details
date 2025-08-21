@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 font-family: Arial, sans-serif;
 background-color:rgb(209, 201, 157);
@@ -123,4 +124,131 @@ form action {
     transition: background-color 0.3s ease;
     background-image: url("https://www.transparenttextures.com/patterns/white-paper.png");
     background-size: cover;
+=======
+body {
+font-family: Arial, sans-serif;
+background-color:rgb(209, 201, 157);
+padding: 20px;
+background-image: url("https://www.transparenttextures.com/patterns/");
+}
+
+.form-container {
+    background: brown;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: lightcoral;
+    padding-block: 10px;
+    box-shadow: #902e2e 0px 0px 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: lightcoral;
+    background-color: rgb(209, 201, 157);
+    padding-block: 10px;
+    border-radius: 5px;
+    box-shadow: #902e2e 0px 0px 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: lightcoral;
+    padding-block: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: #902e2e;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #490707;
+    border-radius: 5px;
+    padding-block: 10px;
+    background-color: #f8f9fa;
+    color: #495057;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+button {
+    background-color: #62996f;
+    color: rgb(37, 38, 59);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.output-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #134980;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+.background {
+    background-color: rgb(34, 8, 8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label {
+    color: rgb(13, 13, 12);
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #902e2e;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button {
+    background-color: #902e2e;
+    color: rgb(107, 7, 7);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form action {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: background-color 0.3s ease;
+    background-image: url("https://www.transparenttextures.com/patterns/white-paper.png");
+    background-size: cover;
+>>>>>>> 84a80ba (Updated script.js with Google Apps Script web app link)
 }
